@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/imagens/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.semáforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 10px solid #333;
+    border-radius: 15px;
+    background-color: #444;
+}
+
+.luz {
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#vermelho,
+#amarelo,
+#verde {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-vermelho {
+    background-color: #FF6961;
+    color: white;
+}
+
+.button-amarelo {
+    background-color: #FFD700;
+    color: white;
+}
+
+.button-verde {
+    background-color: #77DD77;
+    color: white;
+}
+
+.button-desligar {
+    background-color: #A9A9A9;
+    color: white;
+}

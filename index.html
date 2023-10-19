@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Semáforo</title>
+</head>
+
+<body>
+  <div class="semáforo">
+    <img class="luz" id="vermelho" src="/imagens/luz_vermelha.png">
+    <img class="luz" id="amarelo" src="/imagens/luz_amarela.png">
+    <img class="luz" id="verde" src="/imagens/luz_verde.png">
+  </div>
+  <div class="buttons">
+    <button class="button-vermelho" onclick="ligarVermelho()">Ligar Vermelho</button>
+    <button class="button-amarelo" onclick="ligarAmarelo()">Ligar Amarelo</button>
+    <button class="button-verde" onclick="ligarVerde()">Ligar Verde</button>
+    <button class="button-desligar" onclick="desligar()">Desligar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
